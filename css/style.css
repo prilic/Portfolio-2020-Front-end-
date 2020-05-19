@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quattrocento Sans', sans-serif;
+    background: #1d2021;
+    color: #ebdbb2;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: beige;
+    font-size: 3.2rem;
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #ebdbb2;
+}
+li{
+    list-style-type: none;
+}
+#intro-btn{
+    display: flex;
+    flex-direction: row;
+}
+/*utility classes*/
+.btn{
+    display: block;
+    background: #0080FF;
+    border-radius: 2px;
+    padding: 1rem;
+    width: max-content;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: none;
+}
+.x-base{
+    margin: 2rem auto;
+}
+.x-medium{
+    margin: 4rem auto;
+}
+.x-hight{
+    margin: 6rem auto;
+}
+/*padding*/
+.padding-base{
+    padding:0.5rem 0;
+}
+.padding-medium{
+    padding: 1rem 0;
+}
+.padding-high{
+    padding: 2rem 0;
+}
+
+/*Nav*/
+nav{
+    background:  #212f3c;
+    height: 0%;
+    width: 100%;
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    width: 100%;
+    height: content;
+    text-align: center;
+}
+nav ul li{
+    padding: 1.5rem;
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #021B79, #0575E6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+}
+nav a{
+    transition: 0.3s ease-in-out;
+}
+/*Nav button styling*/
+#container {
+    cursor: pointer;
+    right: 1rem;
+    position: fixed;
+    z-index: 999;
+  }
+  .strip1, .strip2, .strip3 {
+	width: 35px;
+	height: 5px;
+	background-color: #fff;
+	margin: 6px 0;
+	transition: 0.4s;
+  }
+  .change .strip1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  .change .strip2 {opacity: 0;}
+
+  .change .strip3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-8px, -8px);
+  }
+  /*welcome screen*/
+#header{
+    background: url(../images/background/mountains.png)no-repeat center center/cover;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#welcome-message{
+    height: fit-content;
+    margin: auto;
+}
+#welcome-message p{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-shadow: #5f6366 1px 1px,#5f6366 -1px 1px 2px, #5f6366 -1px -1px 2px, #5f6366 1px -1px 2px;
+
+}
+  /*About*/
+#about{
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+}
+#about #about-content img{
+    width: 100%;
+}
+  /*Skills*/
+#flex-contener{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills-set{
+    text-align: center;
+    width: 30%;
+    /*color: #777777;*/
+}
+.skills-set img{
+    width: 4.5rem;
+    padding: 1rem;
+}
+  /*Portfolio*/
+.project .btn{
+    display: inline-block;
+}
+.project{
+    width: 90%;
+    margin: auto;
+    margin-top: 2.5rem;
+}
+.project-img img{
+    width: 100%;
+}
+.project-desc h3{
+    margin: 1rem 0;
+}
+.project-desc .btn{
+    margin-top: 0.8rem;
+    margin-right: 0.5rem;
+}
+  /*contact*/
+form{
+    width: 90%;
+    margin: auto;
+}
+input{
+    height: 2rem;
+}
+input,
+textarea{
+    font-size: 1.2rem;
+}
+.input,
+input,
+textarea{
+    width: 100%;
+    border-radius: 3px;
+}
+textarea{
+    resize: none;
+}
+.input input[type=button]{
+    margin: 1.2rem 0;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+  /*footer*/
+  footer{
+      padding: 0.5rem 0;
+      padding-left: 0.5rem;
+      background: #0c0e09;
+  }
