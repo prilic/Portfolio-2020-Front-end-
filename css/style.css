@@ -213,3 +213,28 @@ textarea{
       padding-left: 0.5rem;
       background: #0c0e09;
   }
+
+/*---Tablet---*/
+@media(min-width: 501px){
+    #about-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    }
+    #about #about-illustration{
+        width: 45%;
+    }
+    #presentation{
+        width: 45%;
+    }
+  }
+
+/*---Normal---*/
+/*@media (min-width: 769px)(max-width: 1200px){
+
+}*/
+/*---Widescreen---*/
+/*@media (min-width: 1201px){
+
+}*/
