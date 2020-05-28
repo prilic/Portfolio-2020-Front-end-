@@ -99,6 +99,7 @@ nav a{
 #container {
     cursor: pointer;
     right: 1rem;
+    top: 0.5rem;
     position: fixed;
     z-index: 999;
   }
@@ -216,6 +217,7 @@ textarea{
 
 /*---Tablet---*/
 @media(min-width: 501px){
+    /*About*/
     #about-content{
     width: 90%;
     margin: auto;
@@ -228,12 +230,37 @@ textarea{
     #presentation{
         width: 45%;
     }
+    /*Project*/
+    .project{
+      display: flex;
+      justify-content: space-between;
+    }
+    .project-img{
+      width: 45%;
+      margin: auto;
+    }
+    .project-desc{
+      width: 45%;
+    }
+    .project-desc h3{
+    margin: 0 0 1rem 0;
+    }
+    .project p{
+        line-height: 1.6;
+    }
   }
 
 /*---Normal---*/
-/*@media (min-width: 769px)(max-width: 1200px){
-
-}*/
+@media (min-width: 769px){
+    /*About*/
+    #about #about-content #présentation p{
+        line-height: 1.6;
+    }
+    /*form*/
+    form{
+    width: 50%;
+    }
+}
 /*---Widescreen---*/
 /*@media (min-width: 1201px){
 
