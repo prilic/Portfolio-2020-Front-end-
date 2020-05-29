@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.2rem;
     background: #1d2021;
     color: #ebdbb2;
 }
@@ -203,6 +204,7 @@ textarea{
     resize: none;
 }
 .input input[type=button]{
+    height: auto;
     margin: 1.2rem 0;
     color: #fff;
     font-weight: 500;
