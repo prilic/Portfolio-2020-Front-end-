@@ -157,6 +157,7 @@ nav a{
 #flex-contener{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 2.5rem;
 }
 .skills-set{
     text-align: center;
@@ -191,7 +192,9 @@ h4{
 }
 .project-desc .btn{
     margin-top: 0.8rem;
-    margin-right: 0.5rem;
+}
+.link{
+    display: flex;
 }
   /*contact*/
 form{
