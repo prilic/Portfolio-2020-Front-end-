@@ -16,4 +16,13 @@ document.getElementById('container').addEventListener('click',function controlNa
 });
 
 
-/* fade effect */
+/* scroll fade effect */
+window.addEventListener('scroll',function scrollAppear(){
+	var introdiv = document.querySelector('#presentation');
+	var introPosition = introdiv.getBoundingClientRect().top;
+	var screenPosition = window.innerHeight / 1.3;
+	
+	if(introPosition < screenPosition){
+		introdiv.classList.add('intro-appear');
+	}
+});	

@@ -43,7 +43,7 @@
                 <div id="about-illustration" class="x-base">
                     <img src="images/technology-1283624_640.jpg" alt="technology">
                 </div >
-                <div id="presentation">
+                <div id="presentation" class="intro-text">
                     <p class="x-base">Je suis un développeur web orienté front-end, impliqué dans mon travail, je n'hésite pas à mettre à profit toutes mes compétences. Par ma motivation j'apporte à l'entreprise un collaborateur aux compétences expansibles. Ainsi qu'une véritable passion du web. Pendant ma formation, j’ai appris les langages et technologies tels que HTML5, CSS3, JavaScript, JQuery, MySQL et PHP ainsi que le fonctionnement des réseaux/serveurs. Ouvert à la communication, je suis attentif et je sais détecter les besoins du client. Lors de ma réalisation finale de formation, j'ai peaufiné mon approche grâce à la méthodologie de travail AGILE SCRUM.</p>
                     <div id="intro-btn" class="x-base">
                         <span class="btn"><a href="www.linkedin.com/in/pierre-nyssen"><i class="fab fa-linkedin-in"></i></a></span>
