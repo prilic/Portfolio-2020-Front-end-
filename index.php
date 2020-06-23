@@ -158,7 +158,7 @@
                     <div class="label">
                         <label for="name">Nom:</label>
                     </div>
-                    <div>
+                    <div class="form-ipt">
                         <input type="text" name="name" id="name">
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                     <div class="label">
                         <label for="email">Email:</label>
                     </div>
-                    <div>
+                    <div class="form-ipt">
                         <input type="email" name="email" id="email">
                     </div>
                 </div>
@@ -176,7 +176,7 @@
                     <div class="label">
                         <label for="object">Objet:</label>
                     </div>
-                    <div>
+                    <div class="form-ipt">
                         <input type="text" name="object" id="object">
                     </div>
                 </div>
@@ -185,7 +185,7 @@
                     <div class="label">
                         <label for="message">Message:</label>
                     </div>
-                    <div>
+                    <div class="form-ipt">
                         <textarea name="message" id="message" cols="30" rows="10"></textarea>
                     </div>
                 </div>
