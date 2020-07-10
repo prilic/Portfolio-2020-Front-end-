@@ -21,9 +21,9 @@
         <nav>
             <div id="wrapper">
                  <ul>
-                    <li><a href="">Accueil</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">contact</a></li>
+                    <li><a href="#about">&#192; Propos</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>               
             </div>
         </nav>
@@ -31,7 +31,7 @@
             <div id="welcome-message">
                 <h1>Pierre Nyssen</h1>
                 <p>Developpeur Web orienté front-end</p>
-                <span class="btn x-base"><a href="">Voir les projets</a></span>
+                <span class="btn x-base"><a href="#portfolio">Voir les projets</a></span>
             </div>
         </div>
     </header>
@@ -46,7 +46,7 @@
                 <div id="presentation" class="intro-text">
                     <p class="x-base">Je suis un développeur web orienté front-end, impliqué dans mon travail, je n'hésite pas à mettre à profit toutes mes compétences. Par ma motivation j'apporte à l'entreprise un collaborateur aux compétences expansibles. Ainsi qu'une véritable passion du web. Pendant ma formation, j’ai appris les langages et technologies tels que HTML5, CSS3, JavaScript, JQuery, MySQL et PHP ainsi que le fonctionnement des réseaux/serveurs. Ouvert à la communication, je suis attentif et je sais détecter les besoins du client. Lors de ma réalisation finale de formation, j'ai peaufiné mon approche grâce à la méthodologie de travail AGILE SCRUM.</p>
                     <div id="intro-btn" class="x-base">
-                        <span class="btn"><a href="www.linkedin.com/in/pierre-nyssen"><i class="fab fa-linkedin-in"></i></a></span>
+                        <span class="btn"><a href="https://www.linkedin.com/in/pierre-nyssen"><i class="fab fa-linkedin-in"></i></a></span>
                         <span class="btn"><a href="https://github.com/prilic"><i class="fab fa-github"></i></a></span>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                     <p>Est un site servant à faire découvrir une formation pour les demandeurs d'emplois. Il offre la possibilité de connaître toutes les informations concernant celle-ci et de pouvoir s'y inscrire. Une fois que l'utilisateur a confirmé sa demande sur le site, ce dernier reçoit une notification que sa demande a été bien validée.</p>
                     <div class="link">
                         <span class="btn live-demo"><a href="https://prilic.github.io/mini-site-tactic/index.html#" target="_blank">Demo</a></span>
-                        <span class="btn view-code"><a href="">Code</a></span>  
+                        <span class="btn view-code"><a href="https://github.com/prilic/mini-site-tactic">Code</a></span>  
                     </div>
 
                 </div>
@@ -113,7 +113,7 @@
                     <p>Le dispositif pour objectif de sensibiliser le joueur à la condition des enfants des rues de Kinshasa.</p>
                     <div class="link">
                         <span class="btn live-demo"><a href="https://prilic.github.io/enfants_des_rues/" target="_blank">Demo</a></span>
-                        <span class="btn view-code"><a href="">Code</a></span>
+                        <span class="btn view-code"><a href="https://github.com/prilic/enfants_des_rues">Code</a></span>
                     </div>
 
                 </div>
@@ -141,7 +141,7 @@
                     <p>Projet réalisé pour mettre en pratique mes compétences en HTML, CSS3 et Javascript</p>
                     <div class="link">
                         <span class="btn live-demo"><a href="https://prilic.github.io/computermuseum/" target="_blank">Demo</a></span>
-                        <span class="btn view-code"><a href="">Code</a></span>                        
+                        <span class="btn view-code"><a href="https://github.com/prilic/computermuseum">Code</a></span>                        
                     </div>
 
                 </div>
