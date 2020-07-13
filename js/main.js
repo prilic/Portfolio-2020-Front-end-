@@ -43,7 +43,7 @@ window.addEventListener('scroll',function scrollAppear(){
 
 	function controlName(){
 
-    if(name.value.length < 3 || name.value == "" || (!/[^a-zA-Z]/.test(prenom))){
+    if(name.value.length < 3 || name.value == "" || (!/[^a-zA-Z]/.test(name))){
         name.style.borderColor="red";
     }
     else{

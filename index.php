@@ -126,7 +126,7 @@
                     <h3>Project Jin</h3>
                     <p>Site web réalisé pour un client musicien dans le cadre de projet de fin de formation avec présentation devant un jury. Les fonctions de celui-ci est de pouvoir ajouter et modifier des démonstrations audio des réalisations du client et de pouvoir le contacter via un formulaire de contact.</p>
                     <div class="link">
-                        <span class="btn live-demo"><a href="www.project-jin.yo.fr" target="_blank">Demo</a></span>
+                        <span class="btn live-demo"><a href="https://www.project-jin.yo.fr" target="_blank">Demo</a></span>
                         <span class="btn view-code"><a href="">Code</a></span>
                     </div>
 
